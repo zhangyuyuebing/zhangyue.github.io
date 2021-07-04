@@ -1,0 +1,158 @@
+#div3{
+    width: 1000px;
+    height: 1050px;
+    background-color: rosybrown;
+    margin: 0pc auto;
+}
+
+.header{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(20, 68, 106);
+}
+
+.tu{
+    width: 450px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tu h1{
+    float: right;
+    width: 350px;
+    font-size: 20px;
+    color: tan;
+}
+
+
+.daohang{
+    width: 1000px;
+    padding:10px 0;
+    border-top:1px solid #e1e0e0;
+    color: rgb(20, 68, 106);
+    float: left;
+    background-color: tan;
+    
+
+}
+
+.daohang ul{
+    list-style:none; 
+    width:500px; 
+    float:left;
+}
+
+.daohang ul li{
+    margin:0;
+    padding:0 2px 0 0; 
+    float:left; 
+    
+}
+
+.daohang ul li a{
+    border-right:1px solid #e1e0e0; 
+    display:block; 
+    margin:0; 
+    padding:2px 20px; 
+    color:rgb(20, 68, 106); 
+    text-decoration:none; 
+    font:normal 13px Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 70px;
+}
+
+.daohang ul li a:hover{
+    color:#424242;
+}
+
+
+
+.daohang ul .sy{
+    background-clip: border-box;
+    color:rgb(20, 68, 106);
+    float: left;
+    line-height: 21px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    padding-right: 2px;
+    font-size: 20px;
+}
+
+.daohang ul .sy a{
+    color:#424242;
+    
+}
+
+.yx
+{
+    height: 500px;
+    background-color: rgb(24, 58, 87);
+    width: 1000px;
+
+}
+
+.yx .left{
+    float: left;
+    width:450px;
+    margin-left: 5px;
+    
+    height: 300px;
+
+}
+
+.yx .right{
+    float: right;
+    width: 450px;
+    margin-right: 5px;
+    
+    height: 300px;
+}
+
+.yx .l{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    height: 200px;
+    margin-top: 70px;
+}
+
+
+.yx .r{
+    float: right;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 10px;
+    height: 300px;
+}
+
+.yx p{
+    font-size: 15px;
+    color: seashell;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.gd{
+    height: 400px;
+    background-color: rgb(14, 40, 61);
+    width: 1000px;
+
+}
+
+.gd p{
+    font-size: 15px;
+    color: seashell;
+    line-height: 30px;   
+    text-indent: 2em;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.clrr{
+    height: 30px;
+}

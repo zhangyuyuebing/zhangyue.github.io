@@ -1,0 +1,214 @@
+#div1{
+    width: 1000px;
+    height: 1700px;
+    background-color: rosybrown;
+    margin: 0pc auto;
+}
+
+.header{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(20, 68, 106);
+}
+
+.tu{
+    width: 450px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tu h1{
+    float: right;
+    width: 350px;
+    font-size: 20px;
+    color: tan;
+}
+
+
+.daohang{
+    width: 1000px;
+    padding:10px 0;
+    border-top:1px solid #e1e0e0;
+    color: rgb(20, 68, 106);
+    float: left;
+    background-color: tan;
+    
+
+}
+
+.daohang ul{
+    list-style:none; 
+    width:500px; 
+    float:left;
+}
+
+.daohang ul li{
+    margin:0;
+    padding:0 2px 0 0; 
+    float:left; 
+    
+}
+
+.daohang ul li a{
+    border-right:1px solid #e1e0e0; 
+    display:block; 
+    margin:0; 
+    padding:2px 20px; 
+    color:rgb(20, 68, 106); 
+    text-decoration:none; 
+    font:normal 13px Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 70px;
+}
+
+.daohang ul li a:hover{
+    color:#424242;
+}
+
+
+
+.daohang ul .sy{
+    background-clip: border-box;
+    color:rgb(20, 68, 106);
+    float: left;
+    line-height: 21px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    padding-right: 2px;
+    font-size: 20px;
+}
+
+.daohang ul .sy a{
+    color:#424242;
+    
+}
+
+.picture{
+    width: 300px;
+    height: 540px;
+
+    padding:5px;
+
+    padding-left: 200px;
+    margin-left: 6px;
+}
+.picture #container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+    
+    
+}
+
+#photo{
+    width:1800px;
+    
+    animation: switch 5s ease-out infinite;
+}
+
+#photo > img{
+    float: left;
+    width: 600px;
+    height: 450px;
+}
+
+
+@keyframes switch {
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -600px;
+	}
+	70%, 100% {
+		margin-left: -1200px;
+	}
+}
+
+.content{
+    width: 1000px;
+    background-color: teal;
+    height: 1000px;
+
+}
+
+.content .inner{
+    margin:0 ; 
+    padding:0 20px; 
+    width:600px; 
+    float: left;
+    background:#fff; 
+    border:1px solid #e1e0e0;
+    height: 1000px;
+    background-color: teal;
+
+}
+
+.content .inner .left{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    width:600px; 
+
+}
+
+.content .inner .left .js{
+    margin:0; 
+    padding:20px 0 0 0;
+    height: 400px;
+}
+
+.content .inner .left .js .tpq{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+.content .inner .left .js .wbq{
+    float: right;
+    width: 350px;
+
+
+}
+
+.content .inner .left .jss{
+    margin:0; 
+    padding:20px 0 0 0;
+    height: 480px;
+}
+
+.content .inner .left .jss .tpq{
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+}
+.content .inner .left .jss .wbq{
+    float: right;
+    width: 350px;
+
+}
+
+.content .sidebar{
+    float: right;
+    width: 300px;
+    height:1200px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.content .sidebar .xg{
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #ebebeb;
+}
+
+h2{
+    color:tan;
+}

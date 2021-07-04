@@ -1,0 +1,284 @@
+#div2{
+    width: 1000px;
+    height: 1480px;
+    background-color: rosybrown;
+    margin: 0pc auto;
+}
+
+.header{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(20, 68, 106);
+}
+
+.tu{
+    width: 450px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tu h1{
+    float: right;
+    width: 350px;
+    font-size: 20px;
+    color: tan;
+}
+
+
+.daohang{
+    width: 1000px;
+    padding:10px 0;
+    border-top:1px solid #e1e0e0;
+    color: rgb(20, 68, 106);
+    float: left;
+    background-color: tan;
+    
+
+}
+
+.daohang ul{
+    list-style:none; 
+    width:500px; 
+    float:left;
+}
+
+.daohang ul li{
+    margin:0;
+    padding:0 2px 0 0; 
+    float:left; 
+    
+}
+
+.daohang ul li a{
+    border-right:1px solid #e1e0e0; 
+    display:block; 
+    margin:0; 
+    padding:2px 20px; 
+    color:rgb(20, 68, 106); 
+    text-decoration:none; 
+    font:normal 13px Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 70px;
+}
+
+.daohang ul li a:hover{
+    color:#424242;
+}
+
+
+
+.daohang ul .sy{
+    background-clip: border-box;
+    color:rgb(20, 68, 106);
+    float: left;
+    line-height: 21px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    padding-right: 2px;
+    font-size: 20px;
+}
+
+.daohang ul .sy a{
+    color:#424242;
+    
+}
+
+div#bg{
+    height: 750px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#bg .table{
+
+    background-color: rgb(3,38,58);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255,255,255);
+    border-width: 1px 0px 0px 1px;
+    margin: 0px;
+    padding: 0px;
+    display: table;
+    line-height: 2.0;
+    font-size: 14px;
+    width: 1000px;
+}
+
+
+
+div#bg .table .big
+{
+    text-align: center;
+    color: rgb(255,255,255);
+    display: table-cell;
+    font-size: 16px;
+    height: 70px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    vertical-align: middle;
+    width: 25%;
+    border-collapse: collapse;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left:1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    
+    
+
+    
+}
+
+
+div#bg .table .small
+{
+    
+    color: rgb(255,255,255);
+    display: table-cell;
+    font-size: 14px;
+    height: 60px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    vertical-align: middle;
+    width: 25%;
+    border-collapse: collapse;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left:1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    
+
+    
+}
+
+#js{
+    height: 255px;
+    background-color: rgb(3,54,73);
+    background-image: url(../image/tb.png); 
+    /* 上图为自己绘制 */
+    
+}
+
+#zp{
+    height: 41px;
+    background-color: rgb(20, 68, 106);
+    width: auto;
+    margin-top: -16px;
+}
+
+#zp p{
+    color: rgb(255,255,255);
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    
+    padding-top: 9px;
+}
+
+#zppl{
+    height: 300px;
+    background-color: rgb(3,38,58);
+}
+
+#zppl .left{
+    width: 500px;
+    height: 300px;
+    float: left;
+
+
+}
+#zppl .left .le1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#zppl .left .le1 p{
+    color: white;
+    margin-left: 50px;
+}
+
+#zppl .left .le2{
+    width: 200px;
+    float: right;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#zppl .left .le2 p{
+    color: white;
+    margin-left: 50px;
+}
+
+
+#zppl .right{
+    width: 500px;
+    height: 300px;
+    float: right;
+
+
+}
+
+#zppl .right .ri1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#zppl .right .ri1 p{
+    color: white;
+    margin-left: 50px;
+}
+
+#zppl .right .ri2{
+    width: 200px;
+    float: right;
+    height: 200px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#zppl .right .ri2 p{
+    color: white;
+    margin-left: 50px;
+}
+
+.bs{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(3,54,73);
+}
+
+p{
+    font-size: 17px;
+    line-height: 30px;
+    text-indent: 2em;
+    color: white;
+    padding-top: 20px;
+}
